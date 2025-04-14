@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first page with js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">               
+            <form action="" autocomplete="off">
+                    
+                <div class="form">
+                    <h2>Contact Us</h2>                      
+                    <div class="name">
+                        <div class="f-name">
+                            <label for="first-name">First Name:*</label>
+                            <br>
+                            <input type="text" id="first-name" placeholder="Enter your First Name" required>
+                        </div>
+                        <div class="last-name">
+                            <label for="last-name">Last Name:*</label> <br>
+                            <input type="text" id="last-name" placeholder="Enter your Last Name" required>
+                        </div>
+                    </div>
+                    <div class="email">
+                        <label for="email">Email Address:*</label> <br>
+                        <input type="email" id="email" placeholder="abc123@gmail.com" required>
+                    </div>
+                    <label for="radio">Query Type:*</label>
+                    <div class="query">                         
+                        <div class="radio-1">
+                            <input type="radio" id="radio1" required>
+                            <label for="radio1">General Enquiry</label> 
+                        </div>
+                        <div class="radio-2">
+                            <input type="radio" id="radio2" required>
+                            <label for="radio2">Support Request</label>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <label for="remark">Message:*</label> <br>
+                        <textarea id="remark" name="message" rows="4" required></textarea>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" id="check" required>
+                        <label for="check">I consent to bring contacted by the team *</label>
+                    </div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+            <input type="date" placeholder="pick date">
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
